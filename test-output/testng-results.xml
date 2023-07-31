@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-31T18:40:07 IST" name="eCommerceSuite" finished-at="2023-07-31T18:40:28 IST" duration-ms="21721">
+  <suite started-at="2023-07-31T19:14:28 IST" name="eCommerceSuite" finished-at="2023-07-31T19:15:06 IST" duration-ms="37195">
     <groups>
     </groups>
-    <test started-at="2023-07-31T18:40:07 IST" name="eCommerceTest" finished-at="2023-07-31T18:40:28 IST" duration-ms="21721">
+    <test started-at="2023-07-31T19:14:28 IST" name="eCommerceTest" finished-at="2023-07-31T19:15:06 IST" duration-ms="37195">
+      <class name="eCommerce_testLayer.BigBasket">
+        <test-method signature="BigBasketTest()[pri:0, instance:eCommerce_testLayer.BigBasket@293a5bf6]" started-at="2023-07-31T19:14:54 IST" name="BigBasketTest" finished-at="2023-07-31T19:15:06 IST" duration-ms="11322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BigBasketTest -->
+      </class> <!-- eCommerce_testLayer.BigBasket -->
       <class name="eCommerce_testLayer.Amazon">
-        <test-method signature="AmazonTest()[pri:0, instance:eCommerce_testLayer.Amazon@1a482e36]" started-at="2023-07-31T18:40:07 IST" name="AmazonTest" finished-at="2023-07-31T18:40:17 IST" duration-ms="10541" status="PASS">
+        <test-method signature="AmazonTest()[pri:0, instance:eCommerce_testLayer.Amazon@5b8dfcc1]" started-at="2023-07-31T19:14:28 IST" name="AmazonTest" finished-at="2023-07-31T19:14:42 IST" duration-ms="13187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AmazonTest -->
       </class> <!-- eCommerce_testLayer.Amazon -->
       <class name="eCommerce_testLayer.Flipkart">
-        <test-method signature="FlipkartTest()[pri:0, instance:eCommerce_testLayer.Flipkart@7d8995e]" started-at="2023-07-31T18:40:17 IST" name="FlipkartTest" finished-at="2023-07-31T18:40:28 IST" duration-ms="11135" status="PASS">
+        <test-method signature="FlipkartTest()[pri:0, instance:eCommerce_testLayer.Flipkart@42a48628]" started-at="2023-07-31T19:14:42 IST" name="FlipkartTest" finished-at="2023-07-31T19:14:54 IST" duration-ms="12644" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FlipkartTest -->

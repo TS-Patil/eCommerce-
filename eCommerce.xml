@@ -5,6 +5,7 @@
   <classes>
   <class name="eCommerce_testLayer.Amazon"></class>
   <class name="eCommerce_testLayer.Flipkart"></class>
+   <class name="eCommerce_testLayer.BigBasket"></class>
   </classes>
   </test> <!-- eCommerceTest -->
 </suite> <!-- eCommerceSuite -->
