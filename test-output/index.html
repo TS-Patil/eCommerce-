@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,6 +104,11 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-eCommerceSuite" title="eCommerce_testLayer.Amazon" class="method navigator-link" hash-for-method="AmazonTest">AmazonTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-eCommerceSuite" title="eCommerce_testLayer.BigBasket" class="method navigator-link" hash-for-method="BigBasketTest">BigBasketTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -153,6 +158,21 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-eCommerceSuite-class-passed -->
+          <div class="suite-eCommerceSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">eCommerce_testLayer.BigBasket</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="BigBasketTest">
+                  </a> <!-- BigBasketTest -->
+                  <span class="method-name">BigBasketTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-eCommerceSuite-class-passed -->
         </div> <!-- panel eCommerceSuite -->
         <div panel-name="test-xml-eCommerceSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -167,6 +187,7 @@
     &lt;classes&gt;
       &lt;class name=&quot;eCommerce_testLayer.Amazon&quot;/&gt;
       &lt;class name=&quot;eCommerce_testLayer.Flipkart&quot;/&gt;
+      &lt;class name=&quot;eCommerce_testLayer.BigBasket&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- eCommerceTest --&gt;
 &lt;/suite&gt; &lt;!-- eCommerceSuite --&gt;
@@ -180,7 +201,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">eCommerceTest (2 classes)</span>
+                <span class="test-name">eCommerceTest (3 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -206,20 +227,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'FlipkartTest')
-data.setCell(0, 2, 'eCommerce_testLayer.Flipkart')
-data.setCell(0, 3, 11135);
+data.setCell(0, 1, 'AmazonTest')
+data.setCell(0, 2, 'eCommerce_testLayer.Amazon')
+data.setCell(0, 3, 13187);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'AmazonTest')
-data.setCell(1, 2, 'eCommerce_testLayer.Amazon')
-data.setCell(1, 3, 10541);
+data.setCell(1, 1, 'FlipkartTest')
+data.setCell(1, 2, 'eCommerce_testLayer.Flipkart')
+data.setCell(1, 3, 12644);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'BigBasketTest')
+data.setCell(2, 2, 'eCommerce_testLayer.BigBasket')
+data.setCell(2, 3, 11322);
 window.suiteTableData['eCommerceSuite']= { tableData: data, tableDiv: 'times-div-eCommerceSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 21 seconds</span>
+              <span class="suite-total-time">Total running time: 37 seconds</span>
               <div id="times-div-eCommerceSuite">
               </div> <!-- times-div-eCommerceSuite -->
             </div> <!-- times-div -->
@@ -255,7 +280,14 @@ return data;
               <div class="chronological-class-name">eCommerce_testLayer.Flipkart</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">FlipkartTest</span>
-                <span class="method-start">10549 ms</span>
+                <span class="method-start">13192 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">eCommerce_testLayer.BigBasket</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">BigBasketTest</span>
+                <span class="method-start">25838 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
