@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="eCommerceSuite">
+  <test thread-count="5" name="eCommerceTest">
+  <classes>
+  <class name="eCommerce_testLayer.Amazon"></class>
+  <class name="eCommerce_testLayer.Flipkart"></class>
+  </classes>
+  </test> <!-- eCommerceTest -->
+</suite> <!-- eCommerceSuite -->
